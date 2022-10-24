@@ -56,6 +56,3 @@ npm install @swc/core @swc/jest --save-dev
 ## 04 - configuração Extra
 
 Instalar o Plugin do Jest para VSCode (Jest Runner). Com ele conseguimos rodar os testes diretamente do arquivo de testes
-
-- Resultado:
-  ![jest-plugin](/assets/images/jest-plugin.png)
