@@ -18,5 +18,17 @@ describe('AppController', () => {
     it('should return "Hello World!"', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
+
+    it('should return 5', () => {
+      expect(appController.soma(2, 3)).toBe(5);
+    });
+
+    it('should return -2', () => {
+      expect(appController.soma(2, -4)).toBe(-2);
+    });
+
+    it('should return NaN', () => {
+      expect(appController.soma(2, 'casa')).toBe(NaN);
+    });
   });
 });
